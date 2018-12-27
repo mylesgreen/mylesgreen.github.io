@@ -290,10 +290,12 @@ h6 {
     -webkit-clip-path: inset(-1px);
     clip-path: inset(-1px);
   }
+
   .portfolio-item:hover img {
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
+
   .portfolio-item:hover .caption {
     background-color: rgba(29, 128, 159, 0.9);
     -webkit-clip-path: inset(2rem);
@@ -330,6 +332,8 @@ a {
 
 a:hover, a:focus, a:active {
   color: #155d74;
+  background-color: white;
+
 }
 
 .btn-primary {
@@ -377,7 +381,9 @@ a:hover, a:focus, a:active {
 }
 
 
-
+.testing a {
+  display: none;
+}
 
 
 
