@@ -386,4 +386,8 @@
 
 header em {
     color: white;
-  } 
+  }
+
+footer p {
+    color: white;
+}
