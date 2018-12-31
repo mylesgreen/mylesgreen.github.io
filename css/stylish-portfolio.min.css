@@ -395,3 +395,21 @@ footer p {
 .project-row-gutter {
     margin-top: 2em;
 }
+
+/*--------media queries for some cellphones' width------- (alfredo)*/
+.h1-separation {
+    display: none;
+}
+@media only screen and (min-width: 360px) and (max-width: 767px) { 
+    .masthead h1 {
+        font-size: 310%
+    }
+
+    .masthead em {
+        font-weight: 100;
+    }
+
+    .h1-separation {
+        display: inline
+    }
+}
