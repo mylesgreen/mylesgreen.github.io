@@ -311,7 +311,7 @@
      display: block;
      height: 6rem;
      width: 6rem;
-     line-height: 4.3rem;
+     line-height: 7.4rem; /*HERE WAS THE "centralize ICON problem!!! Alfredo*/
      font-size: 1.5rem;
      background-color: white;
      -webkit-transition: background-color .15s ease-in-out;
@@ -412,4 +412,8 @@ footer p {
     .h1-separation {
         display: inline
     }
+}
+
+#portfolio h2 {
+    font-size: 150%;
 }
