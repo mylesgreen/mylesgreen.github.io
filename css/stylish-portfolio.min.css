@@ -400,9 +400,14 @@ footer p {
 .h1-separation {
     display: none;
 }
+
 @media only screen and (min-width: 360px) and (max-width: 767px) { 
+    body {
+        width: 100%;
+    }
+    
     .masthead h1 {
-        font-size: 310%
+        font-size: 290%
     }
 
     .masthead em {
